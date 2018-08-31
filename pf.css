@@ -1,0 +1,268 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	max-height: 1000000px; /* reason: https://stackoverflow.com/questions/13416989/computed-font-size-is-bigger-than-defined-in-css-on-the-asus-nexus-7 */
+}
+
+#page {
+	margin-top: 45px;
+}
+
+/*nav {
+	width: 100%;
+	display: flex;
+	position: fixed;
+	justify-content: flex-end;
+	background: #d3d3d3;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 50px;
+	z-index: 1;
+	border-bottom: 1px solid black;
+
+}
+*/
+		/*@media only screen 
+		  and (max-device-width: 480px) {
+		  	nav {
+		  		justify-content: space-between;
+		  		height: 100px;
+		  	}
+		}*/
+
+/*nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+		@media only screen 
+		  and (max-device-width: 480px) {
+		  	nav ul {
+		  		justify-content: space-between;
+		  	}
+		}
+
+nav li {
+	display: flex;
+	align-items: center;
+}*/
+
+nav li:hover {
+	background-color: #F88B26;
+}
+
+nav li a {
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+	  	a {
+	  		font-size: 2rem;
+	  	}
+	}
+
+
+nav li a:hover {
+	color: white;
+}
+
+.cont_top {
+	background: url(img/pf4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.cont_top>div {
+	background-color: rgba(256, 256, 256, 0.7);
+	text-align: center;
+	padding: 25px;
+	margin-left: 60px;
+	border: 1px solid black;
+}
+
+
+
+.me {
+	width: 120px;
+	height: 150px;
+	z-index: 1;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px;
+	margin: 20px;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+	  	.me {
+	  		width: 360px;
+	  		height: 450px;
+	  	}
+	}
+
+h1, h2 {
+	font-family: 'Satisfy', cursive;
+	color: #d1690e;
+	text-align: center;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+	  	h1 {
+	  		font-size: 3.5rem;
+	  	}
+
+	  	h3 {
+	  		font-size: 2rem;
+	  	}
+	}	
+
+section {
+	min-height: 100vh;
+	padding-top: 75px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+section p {
+	padding: 50px;
+
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+	  	p {
+	  		font-size: 2.5rem;
+	  	}
+	}
+
+h2 {
+	font-size: 3rem;
+	padding-bottom: 50px;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+	  	h2 {
+	  		font-size: 3.5rem;
+	  	}
+	}
+
+#aboutme p {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#mywork .details img {
+	width: 300px;
+}
+
+#mywork .details {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#mywork .details div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+		#mywork .details div {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+	}
+
+#mywork .details div div {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact .details {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#contact .details div div {
+	text-align: center;
+	display: inline-block;
+	height: 250px;
+}
+
+#contact .details div {
+	display: flex;
+	justify-content: space-between;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+		#contact .details div {
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		#contact .details div div p {
+			text-align: center;
+		}
+	}
+
+#contact .details img {
+	width: 70px;
+	height: 70px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: black;
+}
+
+	@media only screen 
+	  and (max-device-width: 480px) {
+
+	  	#contact .image {
+	  		display: none;
+	  	}
+	}
+
+	
+footer {
+	background: black;
+	height: 50px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
